@@ -1,0 +1,33 @@
+.nav{
+    color: #c1c1c1;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 50px 0 50px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+#header {
+    background-color: royalblue;
+}
+#main{
+    margin-right: 280px;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+body {
+    background: darkseagreen;
+}

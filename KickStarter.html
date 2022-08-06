@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="KickStarter.css" type="text/css">
+    <title>KickStarter</title>
+</head>
+<body>
+
+    <img src="https://assets.pcmag.com/media/images/421584-kickstarter.jpg?width=333&height=245">
+    <h1>
+        Welcome to KickStarter Crowd-Funding
+    </h1>
+
+    <div id="header">
+        <ul class="nav">
+            <li><a href="KickStarter.html">Main Page</a></li>
+            <li><a href="piechart.html">Pie Chart Page</a></li>
+            <li><a href="barchart.html">Bar Chart Page</a> </li>
+        </ul>
+    </div>
+
+    <div class="words">
+        <p>Already excited for funding?</p>
+        <p>Here are just a few details we need from you!</p>
+        <br>
+        <br>
+    </div>
+
+    <div class="input">
+        <form>
+            <input id="days_elapsed" placeholder="0 Days" type="text"/>
+            <label for="days_elapsed" >Duration of Time</label>
+        </form>
+        <form>
+            <input id="usd_goal_real" placeholder="$0.00" type="text"/>
+            <label for="usd_goal_real">Goal (Amount in USD)</label>
+        </form>
+        <form>
+            <input id="country" placeholder="United States" type="text"/>
+            <label for="country">Country of Origin</label>
+        </form>
+        <form>
+            <select id="main_category">
+                <option value="Publishing">Publishing</option>
+                <option value="F&V">Film & Video</option>
+                <option value="Music">Music</option>
+                <option value="Food">Food</option>
+                <option value="Design">Design</option>
+                <option value="Crafts">Crafts</option>
+                <option value="Games">Games</option>
+                <option value="Comics">Comics</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Theater">Theater</option>
+                <option value="Photo">Photograph</option>
+                <option value="Art">Art</option>
+                <option value="Tech">Technology</option>
+                <option value="Dance">Dance</option>
+                <option value="Journalism">Journalism</option>
+            </select>
+            <label for="main_category">Main Category</label>
+        </form>
+        <form>
+            <input id="category" placeholder="clark Cafe" type="text"/>
+            <label for="category">Sub Category</label>
+        </form>
+        <form>
+            <input id="month_launched" placeholder="number 1 for January" type="text"/>
+            <label for="month_launched">Months</label>
+        </form>
+    </div>
+    <br>
+    <br>
+    <script src="Result.js"></script>
+    <button id="submit" onclick="getResult()">Submit Application to View Result</button>
+    <form id="answer">
+        <p id="output"></p>
+        <p id="result"></p>
+    </form>
+
+</body>
+</html>

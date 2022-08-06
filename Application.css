@@ -1,0 +1,15 @@
+.l{
+    font-size: xx-large;
+}
+body {
+    background: darkseagreen;
+}
+.mean{
+    margin: 100px;
+    background: bisque;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background: grey;
+}
